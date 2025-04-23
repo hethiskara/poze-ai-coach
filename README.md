@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+# Smart Camera Pose Coach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A browser-based AI application that provides real-time feedback on your body posture using computer vision and machine learning.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Fitness Mode**: Get real-time feedback on your workout form
+  - Squat form analysis
+  - Back posture tracking
+  - Knee alignment detection
+  - Balance assessment
 
-### `npm start`
+- **Photography Mode**: Perfect your poses for photos
+  - Head tilt optimization
+  - Shoulder alignment
+  - Posture symmetry
+  - Body positioning
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Privacy-Focused**: 100% frontend-only, no data sharing
+  - All processing happens in your browser
+  - No images or data are sent to any server
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Live Camera Overlay**: See your pose with wireframe keypoints
+- **Snapshot + Download**: Capture and save your perfect poses
 
-### `npm test`
+## Technology Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React with TypeScript
+- TensorFlow.js for machine learning
+- MediaPipe for pose detection
+- Tailwind CSS for styling
+- Framer Motion for animations
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or later)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
+```
+git clone https://github.com/yourusername/smart-camera-pose-coach.git
+cd smart-camera-pose-coach
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Install dependencies
+```
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Open your browser and navigate to `http://localhost:3000`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. Allow camera access when prompted
+2. Choose between Fitness Mode or Photography Mode
+3. Position yourself in the camera view
+4. Follow the real-time feedback to improve your form
+5. Take a snapshot to save your perfect pose
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To build the app for production:
+
+```
+npm run build
+```
+
+The build artifacts will be stored in the `build/` directory.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- TensorFlow.js team for the machine learning framework
+- MediaPipe team for the pose detection models
