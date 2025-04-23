@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="300" rx="10" fill="#E6F2FF"/>
+  
+  <!-- Stylized figure in front double biceps pose -->
+  <!-- Head -->
+  <circle cx="150" cy="75" r="25" fill="#3B82F6" opacity="0.7"/>
+  
+  <!-- Torso -->
+  <path d="M150 100 L150 180" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Arms in double biceps pose -->
+  <path d="M150 120 L110 100 L90 130" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 120 L190 100 L210 130" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <path d="M150 180 L130 240" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 180 L170 240" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Pose name -->
+  <text x="150" y="280" font-family="Arial" font-size="16" fill="#3B82F6" text-anchor="middle" font-weight="bold">Front Double Biceps</text>
+</svg>
